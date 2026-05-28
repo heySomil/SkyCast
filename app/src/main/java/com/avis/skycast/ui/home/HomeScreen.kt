@@ -68,7 +68,7 @@ fun HomeScreen(onLogout: () -> Unit) {
             ).show()
         }
     }
-
+//LaunchEffect
     LaunchedEffect(Unit) {
 
         val permission = ContextCompat.checkSelfPermission(
